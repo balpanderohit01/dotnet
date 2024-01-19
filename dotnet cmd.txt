@@ -1,0 +1,9 @@
+dotnet new sln
+dotnet new mvc -o name
+dotnet sln add
+dotnet build 
+
+add-migration initial 
+update-database 
+
+https://github.com/SHIRISHNALAWADE/NT
